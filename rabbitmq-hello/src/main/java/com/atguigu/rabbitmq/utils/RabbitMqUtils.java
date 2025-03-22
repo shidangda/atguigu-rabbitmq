@@ -9,7 +9,7 @@ public class RabbitMqUtils {
     public static Channel getChannel() throws Exception{
         //创建一个连接工厂
         ConnectionFactory factory = new ConnectionFactory();
-        factory.setHost("192.168.20.129");
+        factory.setHost("47.121.29.230");
         factory.setUsername("admin");
         factory.setPassword("admin");
 
