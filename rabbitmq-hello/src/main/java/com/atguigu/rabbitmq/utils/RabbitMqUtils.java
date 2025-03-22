@@ -13,9 +13,6 @@ public class RabbitMqUtils {
         factory.setUsername("admin");
         factory.setPassword("admin");
 
-        factory.setUsername("admin");
-        factory.setPassword("admin");
-
         //创建连接
         Connection connection = factory.newConnection();
         //获取信道
